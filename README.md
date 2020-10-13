@@ -1,4 +1,4 @@
-# Programming_Tutor :book:
+# Programming Tutor :book:
 
 Sistema para Instrução de estudantes em programação. :computer:
 
