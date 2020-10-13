@@ -1,10 +1,10 @@
-# Programming_Tutor
+# Programming_Tutor :book:
 
-Sistema para Instrução de estudantes em programação.
+Sistema para Instrução de estudantes em programação. :computer:
 
-Projeto desenvolvido para o Bootcamp Desenvolvedor(a) Java Jr. da Generation Brasil.
+Projeto desenvolvido para o Bootcamp Desenvolvedor(a) Java Jr. da Generation Brasil. :100:
 
-## Integrantes do Grupo
+## Integrantes do Grupo :nerd_face:
 
 Felipe Caetano
 
@@ -25,3 +25,17 @@ Luisa Pataquini
 
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/luisapataquini)](https://github.com/luisapataquini)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luisapataquini)](https://www.linkedin.com/in/luisapataquini)
+
+## Tecnologias utilizadas :robot:
+
+* `Java` :coffee:
+* `Eclipse` :last_quarter_moon:
+* `Git/Github` :octocat:
+
+## Conceitos utilizados :zap:
+
+* `Lógica de Programação`
+* `Laços Condicionais`
+* `Laços de Repetição`
+* `Vetores`
+* `Matrizes`
