@@ -6,7 +6,7 @@ public class Projeto {
 	
 	public static void main (String args[]) throws InterruptedException
 	{
-		int aula,lc,lr,v,m,cond=0,rep=0,x1=0;
+		int aula, cond=0, rep=0, x1=0;
 		String nome;
 		Scanner ler = new Scanner(System.in);
 		
@@ -23,7 +23,7 @@ public class Projeto {
 		
 		while(aula != 17) {
 			
-			if(aula==1)
+			if(aula == 1)
 			{
 				System.out.println("\nBom, sobre Laço Condicional, vamos fazer uma explicação interativa: ");
 				System.out.println("Com quem eu estou falando?");
@@ -39,7 +39,7 @@ public class Projeto {
 					System.out.println("\nAgora é sua vez. Digite uma hora entre 8 e 17: ");
 					double hora = ler.nextDouble();
 					
-					if(hora >=8 && hora <=17)
+					if(hora >= 8 && hora <= 17)
 					{
 						System.out.println(hora + " horas é hora de ligar a webcam.\nPronto esse é laço simples!");
 					}
@@ -54,11 +54,11 @@ public class Projeto {
 					{
 					  System.out.println("Presta atenção nos conselhos do Vagnão!");
 					}
-					else if(hora>6 && hora<8)
+					else if(hora > 6 && hora < 8)
 					{
 					  System.out.println("Daqui a pouco começa a aula...");
 					}
-					else if(hora>17 && hora<=24)
+					else if(hora > 17 && hora <= 24)
 					{
 					  System.out.println("Já fez o BARÔMETRO???");
 					}
@@ -72,13 +72,13 @@ public class Projeto {
 					break;
 				}
 			}
-			if(aula==2)
+			if(aula == 2)
 			{
 				System.out.println("\nBom, sobre Laço Repetição, vamos fazer uma explicação interativa: ");
 				System.out.println("Com quem eu estou falando?");
 				nome = ler.next();
 				System.out.println(nome + ", o laço de repetição também são conhecidas como laços (loops) e são utilizados para executar, repetidamente");
-				System.out.println("Temos três tipos de laço: (1)for, (2)while e do while(3). \nQual deles você gostaria de revisar: ");
+				System.out.println("Temos três tipos de laço: (1)for, (2)while e (3)do while. \nQual deles você gostaria de revisar: ");
 				rep = ler.nextInt();
 				switch(rep)
 					{
@@ -103,7 +103,7 @@ public class Projeto {
 				break;
 				case 2:
 					System.out.printf("Quando queremos utilizar um laço de repetição em Java, utilizamos o comando while(enquanto).\nPor exemplo: ");
-					System.out.println("int x1 = 3;");
+					System.out.println("\nint x1 = 3;");
 					System.out.println("x1 = ler.nextInt();");
 					System.out.println("System.out.printf(\"\\nVocê não tem permissão para entrar\");\");");
 					System.out.println("	System.out.printf(\"\\nVocê é de maior...\");");
@@ -112,9 +112,7 @@ public class Projeto {
 					System.out.println("System.out.printf(\"\\nPrograma finalizado...\");");
 					System.out.printf("\nDigite um número: ");
 					 
-					x1 = 3;
 					x1 = ler.nextInt();
-					
 					
 					while(x1<5)
 					{
@@ -135,8 +133,8 @@ public class Projeto {
 				
 					
 					do {
-							System.out.printf("\nContador: %d", x1);
-							x1++;
+						System.out.printf("\nContador: %d", x1);
+						x1++;
 					}while(x1<5);
 										
 					System.out.printf("\nPrograma finalizado...");
@@ -147,7 +145,7 @@ public class Projeto {
 	
 				
 			}
-			if(aula==3)
+			if(aula == 3)
 			{
 				int[] array1 = {1, 6, 8, 19, 7, 9};
 				int[] array2 = {2, 3, 5, 6, 10};
@@ -224,7 +222,7 @@ public class Projeto {
 					System.out.printf("\nNota %d: %.1f", (i + 1), nota[i]);
 				}
 			}
-			if(aula==4)
+			if(aula == 4)
 			{
 				System.out.println("\nMatriz!!! ");
 			}
