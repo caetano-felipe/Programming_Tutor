@@ -1,6 +1,8 @@
 # Programming_Tutor
 
-Projeto para Instrução de estudantes em programação.
+Sistema para Instrução de estudantes em programação.
+
+Projeto desenvolvido para o Bootcamp Desenvolvedor(a) Java Jr. da Generation Brasil.
 
 ## Integrantes do Grupo
 
